@@ -1,0 +1,1 @@
+{"aliaslist": {"OSReport": "printf"}, "blacklist": ["strncpy"], "funclist": [2147686232]}

@@ -1,9 +1,12 @@
 #include <stdint.h>
 #include <stdio.h>
+#include <string.h>
 #include "pseudoc_routines.h"
 #include "types_file.h"
 #define nullptr NULL
 #define bool int
+#define true 1
+#define false 0
 
 extern void data_80380000;
 extern void data_80310000;
@@ -16,7 +19,7 @@ extern char const global_1449[0xd];
 extern char const global_145[0x27];
 extern char const global_1451[0x25];
 extern char const global_1346[0xc];
-extern char sGenericAllocator$577;
+extern char sGenericAllocator_577;
 int32_t main(int32_t arg1, struct struct_197* arg2)
 {
     void* r2;
@@ -51,15 +54,15 @@ int32_t main(int32_t arg1, struct struct_197* arg2)
     Release__7ZeroRefFv(*(uint32_t*)((char*)r13 - 0x4a04));
     Release__7ZeroRefFv(*(uint32_t*)((char*)r13 - 0x4a00));
     GetGenericAllocator__13ZeroAllocatorFv();
-    *(uint32_t*)((char*)r13 - 0x493c) = &sGenericAllocator$577;
+    *(uint32_t*)((char*)r13 - 0x493c) = &sGenericAllocator_577;
     GetGenericAllocator__13ZeroAllocatorFv();
-    *(uint32_t*)((char*)r13 - 0x3a30) = &sGenericAllocator$577;
+    *(uint32_t*)((char*)r13 - 0x3a30) = &sGenericAllocator_577;
     GetGenericAllocator__13ZeroAllocatorFv();
-    *(uint32_t*)((char*)r13 - 0x3900) = &sGenericAllocator$577;
+    *(uint32_t*)((char*)r13 - 0x3900) = &sGenericAllocator_577;
     GetGenericAllocator__13ZeroAllocatorFv();
-    *(uint32_t*)((char*)r13 - 0x44ac) = &sGenericAllocator$577;
+    *(uint32_t*)((char*)r13 - 0x44ac) = &sGenericAllocator_577;
     GetGenericAllocator__13ZeroAllocatorFv();
-    *(uint32_t*)((char*)r13 - 0x37fc) = &sGenericAllocator$577;
+    *(uint32_t*)((char*)r13 - 0x37fc) = &sGenericAllocator_577;
     Done__6VarSysFv();
     return 0;
 }

@@ -2,14 +2,13 @@
 
 #include "types_file.h"
 
+#define OSReport printf
 int32_t main(int32_t arg1, struct struct_197* arg2);
-void strncpy(void* arg1, void* arg2, int32_t arg3);
 void ProcessCommandLine__FiPPc(int32_t arg1, struct struct_197* arg2);
 int32_t __nw__14ZeroVisUnknownFUl(int32_t size);
 struct TextureObject_1* __ct__12GameVisWorldFPviPc(struct TextureObject_1* textureObject, int32_t textureWidth, int32_t textureHeight, int32_t renderFlags);
 int32_t Init__10TRCManagerFv();
 int32_t AddType__11MemProfilerFUiPCc(int32_t memoryUsage, char* component) __pure;
-void* OSReport(char* format, ...);
 int32_t ZeroAllocatedBytes__Fv();
 int32_t ClearPaths__8ZeroFileFv();
 void* AddPath__8ZeroFileFPCcb(char* inputPath, int32_t flags);
