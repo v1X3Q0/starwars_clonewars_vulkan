@@ -20,7 +20,7 @@ extern char const global_145[0x27];
 extern char const global_1451[0x25];
 extern char const global_1346[0xc];
 extern char sGenericAllocator_577;
-int32_t main(int32_t arg1, struct struct_197* arg2)
+int32_t main(int32_t arg1, int32_t* arg2)
 {
     void* r2;
     strncpy(&msn_filename, (char*)r2 - 0x7fd8, 0x20);
